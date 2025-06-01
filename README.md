@@ -28,6 +28,7 @@ A simple yet powerful notes app built with **Flutter**, using **GetX** for state
 ---
 
 ## 📁 Folder Structure
+<pre lang="markdown">
 lib/
 ├── app/
 │ ├── bindings/ # Dependency injection
@@ -40,3 +41,4 @@ lib/
 │ ├── services/ # Theme service
 │ └── themes/ # Light and dark themes
 ├── main.dart # App entry point
+</pre>
