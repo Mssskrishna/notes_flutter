@@ -28,4 +28,15 @@ A simple yet powerful notes app built with **Flutter**, using **GetX** for state
 ---
 
 ## 📁 Folder Structure
-
+lib/
+├── app/
+│ ├── bindings/ # Dependency injection
+│ ├── controllers/ # GetX Controllers
+│ ├── data/
+│ │ ├── models/ # Note model
+│ │ └── services/ # SQLite service
+│ ├── routes/ # AppPages (GetX routing)
+│ ├── screens/ # HomeScreen and NoteScreen
+│ ├── services/ # Theme service
+│ └── themes/ # Light and dark themes
+├── main.dart # App entry point
